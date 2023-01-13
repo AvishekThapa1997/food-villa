@@ -29,6 +29,7 @@
 		"no-empty": "error",
 		"no-redeclare": "error",
 		"func-call-spacing": ["error", "never"],
-		"object-property-newline": "error"
+		"object-property-newline": "error",
+		"react/prop-types": "off"
 	}
 }
