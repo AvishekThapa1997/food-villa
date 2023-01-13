@@ -1,0 +1,39 @@
+.restaurant-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	margin-top: 2rem;
+	gap: 1rem;
+}
+
+.restaurant-card {
+	border-radius: 4px;
+	box-shadow: 0 0 2px 2px lightgray;
+	overflow: hidden;
+}
+.restaurant-img-box {
+	box-shadow: 0 0 1px 1px lightgray;
+}
+
+.restaurant-img-box > img {
+	height: 100%;
+}
+.restaurant-details {
+	padding: 1rem;
+}
+
+.restaurant-name {
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	white-space: nowrap;
+	margin-top: 0.5rem;
+}
+
+.restaurant-name,
+.restaurant-cuisines,
+.restaurant-distance {
+	margin-top: 0.5rem;
+}
+.restaurant-cuisine,
+.restaurant-distance {
+	font-size: 0.9rem;
+}
